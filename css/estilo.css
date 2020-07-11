@@ -242,4 +242,19 @@
   .app{
     background: blue;
   }
+
+  .titulo-responsivo{
+    margin: 0;
+    padding-bottom: 0;
+  }
+  .sub-titulo-responsivo{
+    margin: 0;
+    padding: .3em;
+  }
+  .contato-responsivo{
+    display: none;
+    padding-top: 1em;
+    padding-bottom: 0;
+    margin-bottom: .1em;
+  }
 }
