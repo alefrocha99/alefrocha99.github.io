@@ -1,0 +1,130 @@
+
+.app{
+  width: 95%;
+
+  background: #BDEEFF;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.cabecalho{
+  display: flex;
+  background-color: #F3F3F3;
+  width: 25%;
+  margin-right:0;
+  padding-left: 10px;
+  justify-content: center;
+  text-align: center;
+
+
+
+}
+
+.conteudo{
+  background-color: #FFFFFF;
+  width: 75%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding-left: 2rem;
+  margin-left: 0;
+}
+
+
+
+.menu{
+  /* background: #055775; */
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1em;
+
+
+
+
+}
+.menu-lista{
+  list-style-type: none;
+  padding-left: 0;
+
+
+}
+
+.menu-item{
+  margin-bottom: 0.5rem;
+
+}
+
+.menu-link{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color:#929292;
+
+}
+.menu-link:hover{
+  border-bottom: solid 2px #1E84D0;
+  color:#1E84D0;
+
+}
+.ativo{
+  border-bottom: solid 2px #1E84D0;
+  color:#1E84D0;
+
+}
+
+.redes-sociais-caixa{
+  display:flex;
+  align-items: center;
+}
+
+
+
+.fa-github, .fa-linkedin-square{
+  color:#333;
+}
+.fa-github:hover, .fa-linkedin-square:hover{
+  color:#1E84D0;
+}
+
+
+
+.img-alef{
+  width: 150px;
+  border-radius: 50%;
+  /* border: .2rem solid #f3f3f3; */
+
+}
+
+.img-alef:hover{
+  padding: 0.1em solid #1E84D0;
+}
+
+.sobre{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 1rem;
+
+
+}
+
+.sobre-email{
+  color: #1E84D0;
+  text-decoration: none;
+
+}
+.sobre-email:hover{
+  border-bottom: 2px solid #1E84D0;
+}
+
+.sobre h1{
+  font-size: 4rem;
+  margin-bottom: 0.2rem;
+}
+
+.sobre p{
+  margin-top: .1em;
+
+}
