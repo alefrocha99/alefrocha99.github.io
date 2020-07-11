@@ -1,7 +1,7 @@
 
 .app{
   width: 95%;
-  height: auto;
+
 
   background: #BDEEFF;
   font-family: 'Monda', sans-serif;
@@ -132,4 +132,114 @@
 
 /* Parte Responsiva */
 
-@media
+@media (max-width:600px){
+  html{
+  }
+  .app{
+    background: red;
+    width: auto;
+    display: flex;
+    flex-direction:column;
+    font-family: 'Monda', sans-serif;
+
+  }
+
+
+  .cabecalho{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: center;
+    background: #F3F3F3;
+  }
+  .menu{
+    margin-top: 0;
+    width: auto;
+    display: inline;
+    flex-direction: row;
+    padding: .5em .5em;
+
+  }
+  .titulo-responsivo{
+    margin: 0;
+    padding-bottom: 0;
+  }
+  .sub-titulo-responsivo{
+    margin: 0;
+    padding: .3em;
+  }
+  .sobre-div{
+    display:none;
+  }
+
+  .contato-responsivo{
+    padding-top: 1em;
+    padding-bottom: 0;
+    margin-bottom: .1em;
+  }
+
+
+  .menu-lista{
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-link{
+    margin-top: .2em;
+    font-size: 1em;
+    margin-left: .5em;
+    text-transform: uppercase;
+
+  }
+
+  .menu-link:hover{
+    color: #929292;
+
+  }
+
+  .redes-sociais-caixa{
+    background: darkgrey;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .img-alef{
+    display: none;
+  }
+
+
+  .sobre-div h1{
+    font-size: 1em;
+  }
+  .conteudo{
+    width: auto;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    padding: 1.5em;
+  }
+
+  .experiencias-titulo-principal{
+    font-size: 1.5em;
+  }
+
+  .experiencias-trabalhos h2{
+    font-size: 1em;
+
+  }
+
+
+
+
+
+
+}
+
+@media (min-width:500px){
+  .app{
+    background: blue;
+  }
+}
