@@ -1,7 +1,9 @@
+html{
+  scroll-behavior:smooth;
+}
+
 .app{
   width: 100%;
-
-
   background: #BDEEFF;
   font-family: 'Monda', sans-serif;
   display: flex;
@@ -52,7 +54,9 @@
 
 
 
+
 }
+
 .menu-lista{
   list-style-type: none;
   padding-left: 0;
@@ -60,6 +64,12 @@
 
 
 }
+
+.menu-lista button{
+  border: none;
+
+}
+
 
 .menu-item{
   margin-bottom: 0.6rem;
@@ -121,9 +131,6 @@
 
 }
 
-.sobre-titulo{
-
-}
 
 .sobre-paragrafo{
   padding-top:0.1em;
@@ -207,4 +214,9 @@
     padding-top: 2em;
   }
 
+}
+@media (min-width:1000px){
+  .menu{
+    position: fixed;
+  }
 }

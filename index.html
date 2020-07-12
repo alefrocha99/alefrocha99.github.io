@@ -1,5 +1,6 @@
   <!DOCTYPE html>
   <html lang="pt-br" dir="ltr">
+
     <head>
       <meta charset="utf-8">
       <title>Alef Rocha - Desenvolvedor Front end</title>
@@ -25,16 +26,25 @@
           </div>
               <ul class="menu-lista">
               <li class="menu-item">
-                <a  class="menu-link ativo"href="#">sobre</a>
+                <button>
+                <a  class="menu-link ativo"href="#conteudo-sobre">sobre</a>
+                </button>
               </li>
               <li class="menu-item">
-                <a class="menu-link" href="#">experiências</a>
+                <button>
+                <a class="menu-link" href="#conteudo-experiencias">experiências</a>
+              </button>
+              </li>
+
+              <li class="menu-item">
+                <button>
+                <a class="menu-link"href="#conteudo-educacao">educação</a>
+              </button>
               </li>
               <li class="menu-item">
-                <a class="menu-link"href="#">educação</a>
-              </li>
-              <li class="menu-item">
-                <a class="menu-link"href="#">habilidades</a>
+                <button>
+                <a class="menu-link"href="#conteudo-habilidades">habilidades</a>
+              </button>
               </li>
             </ul>
 
@@ -49,9 +59,6 @@
               </a>
 
             </div>
-
-
-
           </nav>
 
       </header>
@@ -59,10 +66,10 @@
       <main class="conteudo">
         <div class="largura-conteudo">
 
-
-        <section class="sobre">
+        <scroll-container>
+        <section class="sobre" id="conteudo-sobre">
           <div class="sobre-div">
-            <h1 class="sobre-titulo">SOBRE</h1>
+            <h1 class="titulo-principal-sessao">SOBRE</h1>
             <p class="sobre-paragrafo">Atualmente sou estudante de Análise e Desenvolvimento de Sistemas
               e sou Auxiliar de Suporte em um time de Sustentação. </p>
             <p class="sobre-paragrafo">Ocupei cargos de liderança com foco em desenvolvimento de equipes de alta performance, eu também participei ativamente em processos de reorganização de estruturas,
@@ -73,11 +80,9 @@
         </section>
 
 
-        <section class="experiencias-caixa">
+        <section class="experiencias-caixa" id="conteudo-experiencias">
           <div class="experiencias-div">
-            <h1 class="experiencias-titulo-principal">EXPERIÊNCIAS</h1>
-
-
+            <h1 class="titulo-principal-sessao">EXPERIÊNCIAS</h1>
           </div>
 
           <div class="experiencias-trabalhos">
@@ -107,14 +112,25 @@
 
         </section>
 
-        <section class="educacao-caixa">
-          <div class="educacao-titulo-principal">
-              <h1>Educação</h1>
+        <section class="educacao-caixa" id="conteudo-educacao">
+          <div class="titulo-principal-sessao">
+              <h1>EDUCAÇÃO</h1>
 
 
           </div>
         </section>
 
+        <section class="educacao-habilidades" id="conteudo-habilidades">
+          <div class="titulo-principal-sessao">
+              <h1>HABILIDADES</h1>
+
+
+          </div>
+        </section>
+
+
+
+        </scroll-container>
         </div>
       </main>
 
