@@ -1,6 +1,5 @@
-
 .app{
-  width: 95%;
+  width: 100%;
 
 
   background: #BDEEFF;
@@ -19,28 +18,36 @@
   justify-content: center;
   text-align: center;
 
+}
 
+.img-alef{
+  width: 150px;
+  border-radius: 50%;
+  /* border: .2rem solid #f3f3f3; */
 
 }
 
-.conteudo{
-  background-color: #FFFFFF;
-  width: 75%;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  /* align-items: center; */
-  padding-left: 2rem;
-  margin-left: 0;
+
+
+
+.perfil-caixa h1{
+  padding-bottom: 0.1em;
+  margin-bottom: 0;
 }
 
+.perfil-caixa h2{
+  margin-top: 0.2em;
+  padding-top: 0;
+
+}
 
 
 .menu{
   /* background: #055775; */
   display: flex;
   flex-direction: column;
-  padding: 2em 1em;
+  padding: 1.5em 1em;
+
 
 
 
@@ -49,6 +56,7 @@
 .menu-lista{
   list-style-type: none;
   padding-left: 0;
+  margin-top: 0.2em;
 
 
 }
@@ -71,19 +79,16 @@
 /* .ativo{
   border-bottom: solid 2px #1E84D0;
   color:#1E84D0;
-
 } */
 
 .redes-sociais-caixa{
   display:flex;
-  align-content: center;
+  align-items: center;
 }
-
-
-
+/* Icones de redes sociais */
 .fa-github, .fa-linkedin-square{
   color:#333;
-  margin-left: 0.3em;
+  margin-left: 0.2em;
 }
 .fa-github:hover, .fa-linkedin-square:hover{
   color:#1E84D0;
@@ -91,22 +96,26 @@
 
 
 
-.img-alef{
-  width: 150px;
-  border-radius: 50%;
-  /* border: .2rem solid #f3f3f3; */
+/* Conteudo principal */
 
+
+.conteudo{
+  background-color: #FFFFFF;
+  width: 75%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding-left: 2rem;
+  margin-left: 0;
 }
 
-.img-alef:hover{
-  padding: 0.1em solid #1E84D0;
-}
 
 .sobre{
   display: flex;
   flex-direction: column;
   align-content: center;
-  padding-top: 1rem;
+  padding-top: 3em;
 
 
 }
@@ -114,6 +123,7 @@
 .sobre-email{
   color: #1E84D0;
   text-decoration: none;
+  text-transform: uppercase;
 
 }
 .sobre-email:hover{
@@ -121,8 +131,9 @@
 }
 
 .sobre h1{
-  font-size: 4rem;
-  margin-bottom: 0.2rem;
+
+  font-size: 2em;
+  padding-bottom: .1em;
 }
 
 .sobre p{
@@ -133,128 +144,54 @@
 /* Parte Responsiva */
 
 @media (max-width:600px){
-  html{
-  }
+
   .app{
-    background: red;
-    width: auto;
     display: flex;
-    flex-direction:column;
-    font-family: 'Monda', sans-serif;
-
-  }
-
-
-  .cabecalho{
     width: auto;
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 0;
-    justify-content: center;
-    background: #F3F3F3;
   }
+  .cabecalho{
+    width: 100%;
+
+
+  }
+
   .menu{
-    margin-top: 0;
     width: auto;
-    display: inline;
-    flex-direction: row;
-    padding: .5em .5em;
-
-  }
-  .titulo-responsivo{
-    margin: 0;
-    padding-bottom: 0;
-  }
-  .sub-titulo-responsivo{
-    margin: 0;
-    padding: .3em;
-  }
-  .sobre-div{
-    display:none;
-  }
-
-  .contato-responsivo{
-    padding-top: 1em;
-    padding-bottom: 0;
-    margin-bottom: .1em;
-  }
-
-
-  .menu-lista{
+    /* background: red; */
     display: flex;
-    justify-content: center;
+
   }
 
-  .menu-link{
-    margin-top: .2em;
-    font-size: 1em;
-    margin-left: .5em;
-    text-transform: uppercase;
-
+  .img-alef{
+    width: 20%;
+    max-width: 100%
   }
 
   .menu-link:hover{
-    color: #929292;
+    color: #929292
+
 
   }
 
-  .redes-sociais-caixa{
-    background: darkgrey;
-    display: flex;
-    flex-direction: row;
+  .redes-sociais-caixa a:hover{
+    color:#333
+
+  }
+
+  .perfil-caixa{
+
   }
 
 
-  .img-alef{
-    display: none;
-  }
-
-
-  .sobre-div h1{
-    font-size: 1em;
-  }
   .conteudo{
     width: auto;
-    display: flex;
-    align-content: center;
+    padding: 1em;
     text-align: center;
-    padding: 1.5em;
   }
 
-  .experiencias-titulo-principal{
-    font-size: 1.5em;
+  .sobre{
+    padding-top: 2em;
   }
 
-  .experiencias-trabalhos h2{
-    font-size: 1em;
-
-  }
-
-
-
-
-
-
-}
-
-@media (min-width:600px){
-  .app{
-    background: blue;
-  }
-
-  .titulo-responsivo{
-    margin: 0;
-    padding-bottom: 0;
-  }
-  .sub-titulo-responsivo{
-    margin: 0;
-    padding: .3em;
-  }
-  .contato-responsivo{
-    display: none;
-    padding-top: 1em;
-    padding-bottom: 0;
-    margin-bottom: .1em;
-  }
 }
