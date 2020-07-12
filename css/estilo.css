@@ -28,6 +28,10 @@ html{
   /* border: .2rem solid #f3f3f3; */
 
 }
+.img-botao{
+  border:none;
+}
+
 
 
 
@@ -240,7 +244,9 @@ html{
     margin-bottom: 0.1em;
   }
 
-
+  .img-botao{
+    border:none;
+  }
 
 
   .sobre-paragrafo{
