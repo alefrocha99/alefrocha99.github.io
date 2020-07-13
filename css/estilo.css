@@ -288,19 +288,28 @@ b{
 .cursos-itens b{
   display: none;
 }
+
+.cursos-lista{
+  padding: 0;
+}
 .cursos-itens{
+  
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding-bottom: 0.5em;
   font-size: 0.7em;
-}
-.cursos-itens{
-
   list-style-type: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0.7em;
 }
 
+
 }
+
+
 @media (min-width:1100px){
   .menu{
     position: fixed;
