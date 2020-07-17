@@ -246,7 +246,7 @@ b{
   }
 
   .sobre{
-    width: auto;
+    width: 100%;
 
     }
 
@@ -265,7 +265,7 @@ b{
 
 
   .sobre-paragrafo{
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
   .sobre-contato{
     font-size: 0.7em;
@@ -279,7 +279,7 @@ b{
   }
 
   .experiencias-trabalhos p{
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
 .curso-universitario{
   font-size: 0.8em;
@@ -293,7 +293,7 @@ b{
   padding: 0;
 }
 .cursos-itens{
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -305,6 +305,32 @@ b{
   padding-right: 0;
   padding-bottom: 0.7em;
 }
+
+
+}
+
+@media (min-width:600px) and (max-width:1024px){
+
+  .img-alef{
+    max-width: 100%;
+  }
+
+  .nome-autor{
+    font-size: 1.3em;
+  }
+
+  .titulo-autor{
+    font-size: 1em;
+  }
+
+  .menu-link{
+    font-size: 1em;
+  }
+
+  
+
+
+
 
 
 }
