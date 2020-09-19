@@ -11,107 +11,7 @@ html{
 
 }
 
-.cabecalho{
-  display: flex;
-  background-color: #F3F3F3;
-  width: 25%;
-  margin-right:0;
-  padding-left: 10px;
-  justify-content: center;
-  text-align: center;
-
-}
-
-.img-alef{
-  width: 150px;
-  border-radius: 50%;
-  /* border: .2rem solid #f3f3f3; */
-
-}
-.img-botao{
-  border:none;
-}
-
-
-
-
-
-.perfil-caixa h1{
-  padding-bottom: 0.1em;
-  margin-bottom: 0;
-}
-
-.perfil-caixa h2{
-  margin-top: 0.2em;
-  padding-top: 0;
-
-}
-
-
-.menu{
-  /* background: #055775; */
-  display: flex;
-  flex-direction: column;
-  padding: 1.5em 1em;
-
-
-
-
-
-
-}
-
-.menu-lista{
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 0.2em;
-
-
-}
-
-.menu-lista button{
-  border: none;
-
-}
-
-
-.menu-item{
-  margin-bottom: 0.6rem;
-
-}
-
-.menu-link{
-  text-decoration: none;
-  font-size: 1.3rem;
-  color:#929292;
-
-}
-.menu-link:hover{
-  color:#1E84D0;
-
-}
-/* .ativo{
-  border-bottom: solid 2px #1E84D0;
-  color:#1E84D0;
-} */
-
-.redes-sociais-caixa{
-  display:flex;
-  align-items: center;
-}
-/* Icones de redes sociais */
-.fa-github, .fa-linkedin-square{
-  color:#333;
-  margin-left: 0.2em;
-}
-.fa-github:hover, .fa-linkedin-square:hover{
-  color:#1E84D0;
-}
-
-
-
 /* Conteudo principal */
-
 
 .conteudo{
   background-color: #FFFFFF;
@@ -137,7 +37,7 @@ html{
 
 }
 
-.titulo-principal-sessao:first-child{
+.sobre-titulo:first-child{
   padding-top: 0.4em;
 }
 
@@ -323,14 +223,16 @@ b{
     font-size: 1em;
   }
 
+
   .menu-link{
     font-size: 1em;
   }
 
-  
+  .menu-link:hover{
+    color: #929292
 
 
-
+  }
 
 
 }
