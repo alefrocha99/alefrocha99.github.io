@@ -59,10 +59,15 @@
   color:#929292;
 
 }
-.menu-link:hover{
-  color:#1E84D0;
 
+
+@media (min-width:1020px){
+  .menu-link:hover{
+    color:#1E84D0;
+
+  }
 }
+
 /* .ativo{
   border-bottom: solid 2px #1E84D0;
   color:#1E84D0;
