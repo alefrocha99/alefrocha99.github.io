@@ -22,102 +22,15 @@ html{
 
 }
 
-.img-alef{
-  width: 150px;
-  border-radius: 50%;
-  /* border: .2rem solid #f3f3f3; */
-
-}
-.img-botao{
-  border:none;
-}
-
-
-
-
-
-.perfil-caixa h1{
-  padding-bottom: 0.1em;
-  margin-bottom: 0;
-}
-
-.perfil-caixa h2{
-  margin-top: 0.2em;
-  padding-top: 0;
-
-}
-
-
-.menu{
-  /* background: #055775; */
-  display: flex;
-  flex-direction: column;
-  padding: 1.5em 1em;
-
-
-
-
-
-
-}
-
-.menu-lista{
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 0.2em;
-
-
-}
-
-.menu-lista button{
-  border: none;
-
-}
-
-
-.menu-item{
-  margin-bottom: 0.6rem;
-
-}
-
-.menu-link{
-  text-decoration: none;
-  font-size: 1.3rem;
-  color:#929292;
-
-}
-.menu-link:hover{
-  color:#1E84D0;
-
-}
-/* .ativo{
-  border-bottom: solid 2px #1E84D0;
-  color:#1E84D0;
-} */
-
-.redes-sociais-caixa{
-  display:flex;
-  align-items: center;
-}
-/* Icones de redes sociais */
-.fa-github, .fa-linkedin-square{
-  color:#333;
-  margin-left: 0.2em;
-}
-.fa-github:hover, .fa-linkedin-square:hover{
-  color:#1E84D0;
-}
-
 
 
 /* Conteudo principal */
 
-
 .conteudo{
   background-color: #FFFFFF;
   width: 75%;
-  display: flex;
-  flex-flow: column;
+  /* display: flex; */
+  /* flex-flow: column; */
   justify-content: center;
   /* align-items: center; */
   padding-left: 2rem;
@@ -125,15 +38,11 @@ html{
   padding-bottom: 4em;
 }
 
-
 .sobre{
   width: 95%;
   display: flex;
   flex-direction: column;
   align-content: center;
-
-
-
 
 }
 
@@ -211,7 +120,7 @@ b{
 
   }
 
-  .img-alef{
+  .menu-foto-perfil{
     width: 25%;
     max-width: 100%
   }
@@ -232,7 +141,7 @@ b{
 
   }
 
-  .perfil-caixa h2{
+  .menu-caixa h2{
     font-size: 1.2em;
 
   }
@@ -259,7 +168,7 @@ b{
     margin-bottom: 0.1em;
   }
 
-  .img-botao{
+  .menu-foto-botao{
     border:none;
   }
 
@@ -311,27 +220,21 @@ b{
 
 @media (min-width:600px) and (max-width:1024px){
 
-  .img-alef{
+  .menu-foto-perfil{
     max-width: 100%;
   }
 
-  .nome-autor{
+  .menu-autor{
     font-size: 1.3em;
   }
 
-  .titulo-autor{
+  .menu-titulo-autor{
     font-size: 1em;
   }
 
   .menu-link{
     font-size: 1em;
   }
-
-  
-
-
-
-
 
 }
 
