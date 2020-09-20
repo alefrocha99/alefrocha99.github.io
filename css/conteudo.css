@@ -1,0 +1,190 @@
+.conteudo{
+  background-color: #FFFFFF;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding-left: 2rem;
+  margin-left: 0;
+  padding-bottom: 4em;
+}
+.conteudo-sobre-caixa{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+
+}
+
+.conteudo-titulo-principal:first-child{
+  padding-top: 0.4em;
+}
+
+.conteudo-titulo-principal{
+  margin-bottom: 0.1em;
+}
+
+
+.conteudo-sobre-paragrafo{
+  padding-top:0.1em;
+  margin-bottom: 0.2em;
+}
+
+.conteudo-sobre-email{
+  color: #1E84D0;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+.conteudo-sobre-contato{
+  padding-top: 1em;
+}
+.conteudo-sobre-email:hover{
+  border-bottom: 2px solid #1E84D0;
+}
+
+.conteudo-sobre-caixa h1{
+
+  font-size: 2em;
+  padding-bottom: .1em;
+}
+
+.conteudo-sobre-caixa p{
+  margin-top: .1em;
+
+}
+
+
+@media (min-width:601px){
+  .conteudo{
+    width: 75%;
+  }
+}
+@media (max-width:600px){
+
+  .app{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .cabecalho{
+    width: 100%;
+
+
+  }
+
+  .menu{
+    width: auto;
+    /* background: red; */
+    display: flex;
+
+  }
+
+  .menu-foto-perfil{
+    width: 25%;
+    max-width: 100%
+  }
+
+  .menu-link:hover{
+    color: #929292
+
+
+  }
+
+  /* .fa-github, .fa-linkedin-square{
+    color:#1E84D0;
+
+  } */
+
+  .redes-sociais-caixa a:hover{
+    color:#333
+
+  }
+
+  .menu-caixa h2{
+    font-size: 1.2em;
+
+  }
+
+
+  .conteudo{
+    width: auto;
+    padding: 1em;
+    text-align: center;
+    padding-bottom: 4em;
+    margin-right: 0;
+  }
+
+  .conteudo-sobre-caixa{
+    width: 100%;
+
+    }
+
+      /* .conteudo-largura{
+        width: 100%;
+      } */
+
+  .conteudo-titulo-principal:first-child{
+    padding-top: 0.1em;
+  }
+
+
+  .conteudo-titulo-principal{
+    margin-bottom: 0.1em;
+  }
+
+  .menu-foto-botao{
+    border:none;
+  }
+
+
+  .sobre-paragrafo{
+    font-size: 0.7em;
+  }
+  .sobre-contato{
+    font-size: 0.7em;
+  }
+
+  .experiencias-trabalhos h2{
+    font-size: 1em;
+  }
+  .experiencias-trabalhos h3{
+    font-size: 0.8em;
+  }
+
+  .experiencias-trabalhos p{
+    font-size: 0.7em;
+  }
+.curso-universitario{
+  font-size: 0.8em;
+}
+
+.cursos-itens b{
+  display: none;
+}
+
+.cursos-lista{
+  padding: 0;
+}
+.cursos-itens{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.5em;
+  font-size: 0.7em;
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0.7em;
+}
+
+
+}
+.cursos-lista{
+  list-style-type:square;
+
+}
