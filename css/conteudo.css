@@ -65,7 +65,11 @@
     z-index: 10000000;
 }
 
-
+@media (max-width: 500px){
+.menu-foto-perfil{
+  width: 45%;
+  }
+}
 
 @media (min-width:601px){
   .conteudo{
@@ -93,7 +97,7 @@
   }
 
   .menu-foto-perfil{
-    width: 25%;
+    width: 30%;
     max-width: 100%
   }
 

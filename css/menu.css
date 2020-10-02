@@ -8,7 +8,6 @@
   border:none;
 } */
 
-
 .menu-caixa h1{
   padding-bottom: 0.1em;
   margin-bottom: 0;
@@ -92,7 +91,13 @@
 
 @media (min-width:600px) and (max-width:1024px){
 
+
   .menu-foto-perfil{
+    width: 45%;
+  }
+
+  .menu-foto-perfil{
+
     max-width: 100%;
   }
 
