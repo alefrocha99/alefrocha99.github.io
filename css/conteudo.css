@@ -121,16 +121,14 @@
     border: 0;
     text-decoration: none;
     cursor: default;
+    color: #333;
 
   }
 
-  .voltar__caixa:hover{
+
+  .voltar__caixa::after{
     color: #333;
   }
-
-  /* .voltar__caixa::after{
-    color: #333;
-  } */
 
 
   .material-icons{
