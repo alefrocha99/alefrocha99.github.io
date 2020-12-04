@@ -18,6 +18,11 @@
 
 }
 
+.voltar__caixa{
+  display: none;
+}
+
+
 .conteudo-titulo-principal:first-child{
   padding-top: 0.4em;
 }
@@ -69,12 +74,28 @@
 .menu-foto-perfil{
   width: 45%;
   }
+
+  .voltar__caixa{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .material-icons{
+    display: block;
+    font-size: 60px;
+  }
+
+
 }
 
 @media (min-width:601px){
   .conteudo{
     width: 75%;
   }
+
+
+
 }
 @media (max-width:600px){
 
@@ -88,6 +109,36 @@
 
 
   }
+
+
+
+  .voltar__caixa{
+    width: auto;
+    background: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0;
+    text-decoration: none;
+    cursor: default;
+
+  }
+
+  .voltar__caixa:hover{
+    color: #333;
+  }
+
+  /* .voltar__caixa::after{
+    color: #333;
+  } */
+
+
+  .material-icons{
+    display: block;
+    font-size: 40px;
+  }
+
+
 
   .menu{
     width: auto;
